@@ -1,0 +1,122 @@
+
+:root {
+    --white: #ddd;
+    --dark: #111;
+    --darkGrey: #474b4f;
+    --lightGrey: #6b6e70;
+    --lightGreen: #86c232;
+    --darkGreen: #61892f;
+    --transition: all 0.5s ease;
+}
+
+
+
+@media screen and (min-width: 678px){
+    
+}
+
+@media screen and (min-width: 800px){
+    /*section two*/
+    .inst-imgs {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    /*section three*/
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        
+    }
+    
+}
+
+@media screen and (min-width: 992px){
+    /*header and footer*/
+    .nav-section {
+        display: flex;
+        justify-content: space-between;
+    }
+    .navBtn {
+        display: none;
+    }
+    .brand-and-navBtn {
+        flex: 0 0 10%;
+        background: none;
+    }
+    .top-nav {
+        flex: 0 1 80%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        transition: transform 0s ease;
+        transform: translateY(0);
+        background: transparent;
+    }
+    .top-nav ul {
+        display: flex;
+    }
+    .top-nav ul li {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .about {
+        margin-top: 0;
+    }
+    .search-icon {
+        flex: 0 0 10%;
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        cursor: pointer;
+        transition: var(--transition);
+    }
+    .search-icon i:hover {
+        transform: scale(1.2);
+    }
+    
+}
+
+@media screen and (min-width: 1000px){
+
+    .section-one .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
+    .section-one-left {
+        align-items: center;
+        height: 100%;
+    }
+    .work-content {
+        margin-top: 0;
+    }
+    .footer-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+
+    }
+    
+    
+}
+
+@media screen and (min-width: 1200px){
+
+    .footer-container > div {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*sectio three*/
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+}
+
+@media screen and (min-width: 1400px){
+    
+}
