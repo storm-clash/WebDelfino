@@ -443,6 +443,18 @@ blockquote span {
 .contact-bottom {
     margin-top: 50px !important;
 }
+.form input[type="text"], .form input[type="email"], .form textarea {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 1px solid var(--lightGreen);
+    outline: none;
+    border-radius: 5px;
+}
+.contact-bottom .form {
+    padding: 0 20px;
+}
 
 
 
