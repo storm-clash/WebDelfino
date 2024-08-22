@@ -257,7 +257,7 @@ blockquote span {
 }
 .section-one-left {
     height: 100vh;
-    /* background: url("photos/used/_DSC7837-Editar copia.jpg") center/cover no-repeat;  */
+    background: url("photos/used/cover.jpg") center/cover no-repeat; 
     box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow:0px 0px 14px -1px rgba(0, 0, 0, 0.75);
