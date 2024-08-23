@@ -10,4 +10,30 @@ showBtn.addEventListener('click', function(){
         showBtn.innerHTML = '<i class= "fas fa-times"></i>';
     }
 });
-var ligthbox = new SimpleLightbox('.gallery a', {/* options */});
+
+
+
+const overlay = document.querySelectorAll('.icon-overlay');
+
+overlay.forEach(icon =>{
+
+    icon.addEventListener('click', ()=>{
+
+        const username = 'jesus_delfino_villa'; // Replace this with the desired username
+        const instagramURL = `https://www.instagram.com/${username}/`;
+
+        window.open(instagramURL, '_blank');
+    });
+});
+
+document.querySelectorAll('.social-icons a').forEach(link => {
+    link.addEventListener('click', (event) => {
+        event.preventDefault(); 
+
+        const url = link.getAttribute('data-url'); 
+        if (url) {
+            window.open(url, '_blank'); 
+        }
+    });
+});
+
